@@ -1,0 +1,24 @@
+//
+// tag level styling here
+@import 'Main'; //
+@import '~bootstrap';
+//
+// shared classes level styling here
+@import 'App'; //
+//
+// component level styling here
+@import './component-styles/landing-page/Header';
+@import './component-styles/landing-page/Background';
+@import './component-styles/landing-page/BackgroundTextOverlay';
+@import './component-styles/landing-page/BackgroundIconOverlay';
+@import './component-styles/sections/Skills';
+@import './component-styles/sections/Projects';
+@import './component-styles/sections/AboutMe';
+@import './component-styles/sections/Resume';
+@import './component-styles/sections/Contact';
+@import './component-styles/sections/Video'; //
+//
+// etcetera styling
+@import 'prism-tomorrow'; //
+// mobile design styling here
+@import 'Mobile';

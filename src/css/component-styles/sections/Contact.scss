@@ -1,0 +1,23 @@
+.img-icon-big {
+  max-width: 150px;
+  transition: all 0.1s ease-in-out;
+  filter: grayscale(100%);
+
+  &:hover {
+    z-index: 1;
+    transform: scale(1.1);
+    filter: grayscale(0%);
+  }
+}
+
+.full-page {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 50px);
+}
+
+.full-page-sub-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

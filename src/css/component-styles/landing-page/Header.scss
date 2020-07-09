@@ -1,0 +1,39 @@
+.header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 10;
+  width: 100vw;
+  padding: 0 25px;
+}
+
+.header-item {
+  margin: 0;
+  padding: 0 0.5rem;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.header-item-text {
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  padding: 0 1.5rem;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #CCC;
+  }
+}
+
+.is-current {
+  background-color: rgba(0,68,136,0.75);
+  color: #EEE;
+  margin: 0;
+  padding: 0 1.5rem;
+}
